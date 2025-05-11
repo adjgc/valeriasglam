@@ -1,0 +1,146 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fac4df;
+  color: #333;
+}
+
+header {
+  background-color: #add8e6;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'GreatVibes-Regular', cursive;
+  font-size: large;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: color 0.3s ease, text-shadow 0.3s ease; /* Transición suave */
+}
+
+nav a:hover {
+  color: #fac4df; /* Cambia el color al rosa */
+  text-shadow: 0 0 5px rgba(255, 105, 180, 0.5); /* Agrega un efecto de brillo */
+}
+
+main {
+  padding: 2rem;
+}
+
+.models {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.model-card {
+  background-color: #ffe1fb;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.model-card img {
+  width: 100%;
+  border-radius: 8px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #add8e6;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Estilos para el formulario */
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  /* Fondo claro */
+  border: 1px solid #ddd;
+  /* Borde sutil */
+  border-radius: 8px;
+  /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Sombra ligera */
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  /* Borde gris claro */
+  border-radius: 4px;
+  /* Bordes redondeados */
+  box-sizing: border-box;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #ff69b4;
+  /* Color de enfoque (rosa) */
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 105, 180, 0.5);
+  /* Sombra rosa */
+}
+
+form button {
+  background-color: #ff69b4;
+  /* Fondo rosa */
+  color: #fff;
+  /* Texto blanco */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #e0559f;
+  /* Fondo rosa más oscuro al pasar el mouse */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.ttf') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-SemiBold.ttf') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
