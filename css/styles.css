@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #add8e6;
+  background-color: #ffb3c6;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -19,11 +19,17 @@ header {
 .logo {
   display: flex;
   align-items: center;
+  background-color: #333; /* Color de fondo contrastante */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 0.25rem; /* Espaciado interno */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Sombra ligera */
 }
 
 .logo img {
   height: 50px;
   margin-right: 1rem;
+  width: auto;
+  object-fit: contain;
 }
 
 .logo a {
@@ -42,8 +48,8 @@ nav a {
 }
 
 nav a:hover {
-  color: #fac4df; /* Cambia el color al rosa */
-  text-shadow: 0 0 5px rgba(255, 105, 180, 0.5); /* Agrega un efecto de brillo */
+  color: #add8e6; /* Cambia el color al azul claro */
+  text-shadow: 0 0 5px rgba(173, 216, 230, 0.5); /* Agrega un efecto de brillo */
 }
 
 main {
@@ -72,7 +78,7 @@ main {
 }
 
 footer {
-  background-color: #add8e6;
+  background-color: #ffb3c6;
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
@@ -83,7 +89,7 @@ form {
   max-width: 500px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #ffe5ec;
   /* Fondo claro */
   border: 1px solid #ddd;
   /* Borde sutil */
